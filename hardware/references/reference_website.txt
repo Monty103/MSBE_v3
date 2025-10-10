@@ -1,0 +1,6 @@
+I2S - Inter-IC sound interface - https://docs.nordicsemi.com/bundle/ps_nrf5340/page/i2s.html	
+CLOCK - https://docs.nordicsemi.com/bundle/ps_nrf5340/page/chapters/clock/doc/clock.html
+RTC - https://docs.nordicsemi.com/bundle/ps_nrf5340/page/rtc.html
+Peripherals - https://docs.nordicsemi.com/bundle/ps_nrf5340/page/chapters/soc_overview/doc/instantiation.html
+Power and clock managment - https://docs.nordicsemi.com/bundle/ps_nrf5340/page/chapters/pmu/doc/pmu.html
+RADIO - https://docs.nordicsemi.com/bundle/ps_nrf5340/page/radio.html
