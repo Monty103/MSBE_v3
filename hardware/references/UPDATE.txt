@@ -1,0 +1,1 @@
+22.12.2025.	- Changed to KiCad, use config 3 insted of 4. Ask AI what config to use!!!!!  Resum to making schematic for Codex and BMS
