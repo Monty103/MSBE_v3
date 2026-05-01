@@ -18699,7 +18699,7 @@
 				)
 			)
 		)
-		(property "Footprint" "myLib:NRF5340-CLAA-R"
+		(property "Footprint" "myLib:NRF5340"
 			(at 151.13 100.965 0)
 			(effects
 				(font
@@ -23203,7 +23203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "myLib:NRF5340-CLAA-R"
+		(property "Footprint" "myLib:NRF5340"
 			(at 462.915 99.695 0)
 			(effects
 				(font
