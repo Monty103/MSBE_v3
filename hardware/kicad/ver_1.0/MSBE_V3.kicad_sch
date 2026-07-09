@@ -7053,6 +7053,17 @@
 		)
 		(uuid "0b8fdf85-1b65-4e12-961a-b30575633fd5")
 	)
+	(text "ON - MCU SD pin input (High impedance)\nOFF - MCU SD pin output (LOW)"
+		(exclude_from_sim no)
+		(at 160.782 342.138 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2040785b-fd0b-4c2c-8a83-962128ad2c40")
+	)
 	(text "Right\n"
 		(exclude_from_sim no)
 		(at 332.994 28.702 0)
@@ -7062,6 +7073,28 @@
 			)
 		)
 		(uuid "2c31e731-740c-497a-990e-163e18e9ad62")
+	)
+	(text "High-impedance input"
+		(exclude_from_sim no)
+		(at 178.562 234.442 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ce7065e-1f4a-45e8-b19b-bf88342ef245")
+	)
+	(text "High-impedance input"
+		(exclude_from_sim no)
+		(at 495.808 242.062 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e1afb35-89b3-45e9-9306-c6668993dc42")
 	)
 	(text "RIGHT CHANNEL SELECTED"
 		(exclude_from_sim no)
@@ -10649,6 +10682,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 378.46) (xy 156.21 379.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a9f8faa-a074-4f79-96d0-0ad79d1e1e45")
+	)
+	(wire
+		(pts
 			(xy 347.98 152.4) (xy 347.98 153.67)
 		)
 		(stroke
@@ -11769,16 +11812,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 378.46) (xy 166.37 378.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b53e7d5-a617-42b8-87bf-c0c4d1f52de9")
-	)
-	(wire
-		(pts
 			(xy 43.18 151.13) (xy 44.45 151.13)
 		)
 		(stroke
@@ -12269,7 +12302,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 321.31) (xy 166.37 321.31)
+			(xy 156.21 321.31) (xy 166.37 321.31)
 		)
 		(stroke
 			(width 0)
@@ -12656,6 +12689,16 @@
 			(type default)
 		)
 		(uuid "c30cf882-5e81-44d1-8552-afbd2b60562f")
+	)
+	(wire
+		(pts
+			(xy 156.21 321.31) (xy 156.21 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3f19509-5d78-410c-9793-804f9a9c8472")
 	)
 	(wire
 		(pts
@@ -13416,6 +13459,16 @@
 			(type default)
 		)
 		(uuid "e073ad15-6279-47af-9c89-a49afd617fc3")
+	)
+	(wire
+		(pts
+			(xy 156.21 378.46) (xy 166.37 378.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0e7b1b3-6617-4871-9728-fdbe3aee43d5")
 	)
 	(wire
 		(pts
@@ -15254,7 +15307,7 @@
 		(dnp no)
 		(uuid "00e6753e-e05f-4425-b974-5e937096a278")
 		(property "Reference" "R8"
-			(at 162.56 373.38 90)
+			(at 154.686 373.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15262,7 +15315,7 @@
 			)
 		)
 		(property "Value" "N.C."
-			(at 153.67 373.634 90)
+			(at 158.75 372.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19656,6 +19709,71 @@
 			(project "MSBE_V3"
 				(path "/2615b159-8647-483d-adba-ec442cd6ae4a"
 					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 156.21 330.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26048bc8-870e-4e23-ab2a-373ea87e1563")
+		(property "Reference" "#PWR0157"
+			(at 156.21 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 156.21 334.3331 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eaf32fea-7190-4ade-84a2-6fd3fef07df9")
+		)
+		(instances
+			(project "MSBE_V3"
+				(path "/2615b159-8647-483d-adba-ec442cd6ae4a"
+					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
@@ -26278,6 +26396,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 156.21 383.54 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b3b07cc-1831-46f6-bc9c-911c3bfffbc1")
+		(property "Reference" "R34"
+			(at 158.496 383.794 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "680k"
+			(at 156.21 383.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 157.988 383.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf251f83-9661-42d6-8d6b-c86957cdfb1b")
+		)
+		(pin "2"
+			(uuid "7bd3fc60-6069-4904-8583-4db130b5b18f")
+		)
+		(instances
+			(project "MSBE_V3"
+				(path "/2615b159-8647-483d-adba-ec442cd6ae4a"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 168.91 177.8 0)
 		(unit 1)
@@ -27236,6 +27420,72 @@
 			(project "MSBE_V3"
 				(path "/2615b159-8647-483d-adba-ec442cd6ae4a"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 156.21 326.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7afde03b-78e3-43e1-add4-00317b3c5d40")
+		(property "Reference" "R33"
+			(at 158.496 326.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "680k"
+			(at 156.21 326.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 157.988 326.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d66c3df3-a855-437b-9d48-d271f72ab0b4")
+		)
+		(pin "2"
+			(uuid "5fd7e168-1c04-4011-956a-b2805739e992")
+		)
+		(instances
+			(project "MSBE_V3"
+				(path "/2615b159-8647-483d-adba-ec442cd6ae4a"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -31390,7 +31640,7 @@
 		(dnp no)
 		(uuid "a948ced5-8d76-41a1-9161-f66fc03a559a")
 		(property "Reference" "R7"
-			(at 162.56 316.23 90)
+			(at 154.686 316.484 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31398,7 +31648,7 @@
 			)
 		)
 		(property "Value" "N.C."
-			(at 153.67 316.484 90)
+			(at 158.75 314.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41188,6 +41438,71 @@
 			(project "MSBE_V3"
 				(path "/2615b159-8647-483d-adba-ec442cd6ae4a"
 					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 156.21 387.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb1f8954-d83c-4d42-9ec3-9375a003e609")
+		(property "Reference" "#PWR0156"
+			(at 156.21 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 156.21 391.4831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60f44c77-edb8-4e9b-b285-5bdebb435fc4")
+		)
+		(instances
+			(project "MSBE_V3"
+				(path "/2615b159-8647-483d-adba-ec442cd6ae4a"
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
