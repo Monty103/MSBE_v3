@@ -7096,6 +7096,17 @@
 		)
 		(uuid "3e1afb35-89b3-45e9-9306-c6668993dc42")
 	)
+	(text "Enable software pull-up\n"
+		(exclude_from_sim no)
+		(at 178.562 236.982 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "431d373e-7698-426b-a6ce-adf7692a514f")
+	)
 	(text "RIGHT CHANNEL SELECTED"
 		(exclude_from_sim no)
 		(at 198.12 391.16 0)
@@ -14391,6 +14402,16 @@
 		)
 		(uuid "249757a2-793a-4986-878a-f29e3d9bda77")
 	)
+	(label "IRQ"
+		(at 179.07 237.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2504bb55-5236-429a-8737-2b2a320675a2")
+	)
 	(label "MIC_CLOCK"
 		(at 179.07 250.19 0)
 		(effects
@@ -14440,6 +14461,16 @@
 			(justify left bottom)
 		)
 		(uuid "31c38554-2317-44f0-b573-50d7b1033af3")
+	)
+	(label "TX"
+		(at 118.11 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "31cb272c-acab-4364-93c5-527f7e14d58c")
 	)
 	(label "MIC_CLOCK"
 		(at 496.57 257.81 0)
@@ -14590,6 +14621,16 @@
 			(justify left bottom)
 		)
 		(uuid "50b1b8c6-4a32-49d9-a543-5111ff161400")
+	)
+	(label "RX"
+		(at 118.11 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "52be0abc-3762-4fd9-b5b5-bc7cd9faebb9")
 	)
 	(label "ISET"
 		(at 179.07 240.03 0)
