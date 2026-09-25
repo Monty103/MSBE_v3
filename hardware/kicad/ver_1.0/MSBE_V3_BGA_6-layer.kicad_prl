@@ -1,8 +1,8 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 6,
     "active_layer_preset": "",
-    "auto_track_width": true,
+    "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -58,11 +58,13 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "MSBE_V3_BGA - Copy.kicad_prl",
+    "filename": "MSBE_V3_BGA_6-layer.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
+      false,
+      false,
       false,
       false,
       false,
@@ -88,7 +90,9 @@
       8,
       9,
       10,
-      11
+      11,
+      12,
+      13
     ],
     "col_widths": [
       162,
@@ -99,6 +103,8 @@
       91,
       91,
       71,
+      91,
+      91,
       91,
       91,
       91,
