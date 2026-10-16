@@ -1,0 +1,4 @@
+(version 1)
+# Small 0402 pads in the GND pour: one thermal spoke is enough (they also have a via to In1).
+(rule "pour_spokes"
+  (constraint min_resolved_spokes 1))

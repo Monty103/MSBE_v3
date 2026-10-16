@@ -1,0 +1,12 @@
+### Footprint positions - created on 2026-07-19T17:28:07+0200 ###
+### Printed by KiCad version 9.0.7
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val               Package                PosX       PosY       Rot  Side
+                                                83.9200    -6.2750    0.0000  bottom
+                                                79.9950    -6.3000    0.0000  bottom
+                                                26.5500    -6.2750    0.0000  bottom
+                                                22.6250    -6.3000    0.0000  bottom
+REF**     Pad_1Pin_2x1.2mm  Pad_1Pin_2x1.2mm    81.9050    -6.2850  -90.0000  bottom
+REF**     Pad_1Pin_2x1.2mm  Pad_1Pin_2x1.2mm    24.5350    -6.2850  -90.0000  bottom
+## End
