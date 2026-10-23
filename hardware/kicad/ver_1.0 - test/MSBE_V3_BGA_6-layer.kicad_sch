@@ -6725,7 +6725,7 @@
 		(uuid 06fc39fb-7d4d-4c3e-8ed3-b340af5418fb)
 	)
 	(rectangle
-		(start 328.93 20.32)
+		(start 316.484 20.32)
 		(end 401.32 76.2)
 		(stroke
 			(width 0.5)
@@ -6935,6 +6935,12 @@
 		(uuid "5c00c6ff-8e78-450c-80a0-095efc9f93d4")
 	)
 	(junction
+		(at 340.36 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bb9bf40-8e9a-4ef1-a372-821b4a413648")
+	)
+	(junction
 		(at 339.09 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7019,6 +7025,12 @@
 		(uuid "a0d64e30-8e46-406c-adfb-2879f9dca07c")
 	)
 	(junction
+		(at 340.36 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4f95322-db57-456e-846a-8f5290aa9912")
+	)
+	(junction
 		(at 273.05 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7029,6 +7041,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7c0bf97-bdd7-4504-b63c-4c90c338af89")
+	)
+	(junction
+		(at 340.36 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8bb8ec1-dd56-42e6-ae5b-652dd39fbd6b")
 	)
 	(junction
 		(at 285.75 129.54)
@@ -7053,6 +7071,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0ad31b9-ce12-4e8c-958f-85dc9d492e4f")
+	)
+	(junction
+		(at 340.36 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c13dc3e8-b2b9-4b61-ae7d-78ec784a734f")
 	)
 	(junction
 		(at 99.695 254)
@@ -7107,6 +7131,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e735c90b-65c3-418e-b416-df3679b48c9f")
+	)
+	(junction
+		(at 340.36 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8eb092f-9555-47bc-9c30-ba1d8047f66e")
 	)
 	(junction
 		(at 105.41 66.04)
@@ -7734,6 +7764,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 53.34) (xy 340.36 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36c6e910-051d-489d-969e-2181e1bdd00d")
+	)
+	(wire
+		(pts
 			(xy 274.32 124.46) (xy 274.32 127)
 		)
 		(stroke
@@ -8084,6 +8124,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 48.26) (xy 340.36 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51b8ccac-6481-4190-bc6f-4ab4eb45dafe")
+	)
+	(wire
+		(pts
 			(xy 138.43 121.92) (xy 140.97 121.92)
 		)
 		(stroke
@@ -8131,6 +8181,16 @@
 			(type default)
 		)
 		(uuid "594ab873-0e82-4c9c-a044-fc3b1afbfc4b")
+	)
+	(wire
+		(pts
+			(xy 332.74 45.72) (xy 340.36 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a254855-b17d-46e9-aca0-c96713b735f3")
 	)
 	(wire
 		(pts
@@ -8874,6 +8934,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 50.8) (xy 340.36 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0c5509a-1965-464a-bdfa-35ba8af91e25")
+	)
+	(wire
+		(pts
 			(xy 172.72 73.66) (xy 175.26 73.66)
 		)
 		(stroke
@@ -9101,6 +9171,16 @@
 			(type default)
 		)
 		(uuid "b2e30876-d994-4104-8c42-73c5b5200eef")
+	)
+	(wire
+		(pts
+			(xy 332.74 55.88) (xy 340.36 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b464b0db-9e66-4b18-b46a-2ac3466e4046")
 	)
 	(wire
 		(pts
@@ -21518,6 +21598,84 @@
 			(project "MSBE_V3_BGA_6-layer"
 				(path "/7e9bed8c-661c-41cb-9879-cab5c0a53fc4"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 327.66 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0623e38-0328-4843-9830-0bb31b81d7e7")
+		(property "Reference" "J8"
+			(at 326.39 52.0701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "High-V-TH"
+			(at 327.406 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+			(at 327.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 327.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 327.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3b56e348-afe6-4f55-8ff4-a88313e51546")
+		)
+		(pin "1"
+			(uuid "b0d836dd-945e-4f4e-8397-e0e1d988dabf")
+		)
+		(pin "3"
+			(uuid "4867c490-dc43-42db-8001-bfd762c4447f")
+		)
+		(pin "5"
+			(uuid "7624f7f5-7fec-4fb9-a497-9073dd87b4e5")
+		)
+		(pin "4"
+			(uuid "110faa05-2659-4be5-8d90-6bf13a2b9140")
+		)
+		(instances
+			(project "MSBE_V3_BGA_6-layer"
+				(path "/7e9bed8c-661c-41cb-9879-cab5c0a53fc4"
+					(reference "J8")
 					(unit 1)
 				)
 			)
