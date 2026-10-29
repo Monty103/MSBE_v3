@@ -1,0 +1,50 @@
+** Drc report for f10.kicad_pcb **
+** Created on 2026-10-29T08:21:25+0100 **
+
+** Found 4 DRC violations **
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; error
+    @(117.0000 mm, 101.6500 mm): Footprint Y1
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; error
+    @(117.0000 mm, 101.6500 mm): Footprint Y1
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; error
+    @(117.0000 mm, 101.6500 mm): Footprint Y1
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; error
+    @(117.0000 mm, 101.6500 mm): Footprint Y1
+
+** Found 7 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(122.9250 mm, 103.0000 mm): Pad B8 [Net-(U2-DECA)] of U2 on F.Cu
+    @(125.0000 mm, 101.6300 mm): Pad 1 [Net-(U2-DECA)] of C21 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(128.1000 mm, 100.6700 mm): Pad 2 [Net-(U2-VBUS)] of C27 on F.Cu
+    @(123.9750 mm, 103.0000 mm): Pad B11 [Net-(U2-VBUS)] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(123.2750 mm, 102.6500 mm): Pad A9 [Net-(U2-DCCD)] of U2 on F.Cu
+    @(126.2000 mm, 101.6350 mm): Pad 1 [Net-(U2-DCCD)] of L2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(123.6250 mm, 103.0000 mm): Pad B10 [VDD] of U2 on F.Cu
+    @(124.3250 mm, 103.0000 mm): Pad B12 [VDD] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(131.4500 mm, 100.6700 mm): Pad 2 [VDD] of C30 on F.Cu
+    @(134.6000 mm, 100.6650 mm): Pad 1 [VDD] of L1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(135.2000 mm, 106.8900 mm): Pad 2 [VSYS] of R7 on F.Cu
+    @(133.9000 mm, 104.4000 mm): Pad C2 [VSYS] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(121.5250 mm, 105.4500 mm): Via [/IRQ] on F.Cu - B.Cu
+    @(138.6903 mm, 103.2000 mm): Pad 1 [/IRQ] of U3 on F.Cu
+
+** Found 0 Footprint errors **
+
+** End of Report **
